@@ -10664,7 +10664,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 #mainNav .navbar-brand {
-  color: #fff;
+  color: 	#000;
 }
 
 #mainNav .navbar-nav {
@@ -10676,7 +10676,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #1abc9c;
+  color: 	#000000;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
@@ -10684,7 +10684,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #1abc9c;
+  color: #FFFFFF;
 }
 
 #mainNav .navbar-toggler {
