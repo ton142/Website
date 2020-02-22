@@ -25,7 +25,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg  text-uppercase fixed-top" id="mainNav" style="background-color:white;">
         <div class="container">
-            <a class="navbar-brand js-scroll-trigger" style="color:black;" href="#index.html">Nathan Tong</a>
+            <a class="navbar-brand js-scroll-trigger" style="color:black;" href="index.html">Nathan Tong</a>
             <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" href="#index.html">
                 Menu
                 <i class="fas fa-bars"></i>
@@ -48,16 +48,18 @@
     <style>
         .center {
             text-align: center;
+            position: inherit;
         }
 
         .column {
             float: left;
             width: 25%;
             padding: 10px;
+            padding-top: 10px;
             margin-bottom: 40px;
-            font-size: 12px;
+            font-size: 19px;
             color: black;
-            font-weight: 400;
+            font-weight: bold;
             font-family: "Roboto", sans-serif;
         }
 
@@ -66,347 +68,190 @@
             display: table;
             clear: both;
         }
+
         h4 {
-            font-size: 17px;
+            font-size: 15px;
             color: black;
             font-weight: 400;
             font-family: "Roboto", sans-serif;
+            padding-top: 3px;
         }
     </style>
     <!-- Heading -->
-    <header class="masthead bg-primary text-white text-center">
-        <div class="container d-flex align-items-center flex-column">
+    <header class="masthead bg-primary text-white text-center" style="padding-bottom:5px">
+        <div class="align-items-center flex-column">
 
             <!-- Heading Title -->
-            <div class="content-container" style="background-color:transparent; margin:auto;" data-content-type="content-spacer">
-                <div class="container">
-                    <div class="row">
-                        <div class="spacer span" style="height:5px; margin-top:10px; margin-bottom:10px; background-color:#ffffff;"></div>
-                    </div>
-                </div>
-            </div>
 
-            <div id="content" class="multi-column" data-sort="1" style="margin:auto; text-align:left;">
+
+            <div class="multi-column;" data-sort="1" style="margin:auto; text-align:left;">
                 <div class="main-content-container" style="background-color:transparent; margin:auto;">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-10">
-                                <div class="details-catagory-wrap">
-                                    <div class="row">
-                                        <div class="column" style="background-color:#fff;">
-                                            <span>Company</span>
-                                            <h4>Some text..</h4>
-                                        </div>
-                                        <div class="column" style="background-color:#bbb;">
-                                            <span>Category</span>
-                                            <h4>Some text..</h4>
-                                        </div>
-                                        <div class="column" style="background-color:#ccc;">
-                                            <span>Date</span>
-                                            <h4>Some text..</h4>
-                                        </div>
-                                        <div class="column" style="background-color:#ddd;">
-                                            <span>Links</span>
-                                            <h4>Some text..</h4>
-                                        </div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-10; center">                          
+                            <div class="details-catagory-wrap">
+                                <div class="row">
+                                    <div class="column" style="background-color:lightblue;">
+                                        <span>Company</span>
+                                        <h4>AeroTec</h4>
                                     </div>
-                                    <div class="single_catagory">
-                                        <span>Share Project</span>
-                                        <div class="social_links">
-                                            <a href="#"> <i class="fa fa-facebook"></i> </a>
-                                            <a href="#"> <i class="fa fa-linkedin"></i> </a>
-                                            <a href="#"> <i class="fa fa-pinterest-p"></i> </a>
-                                            <a href="#"> <i class="fa fa-twitter"></i> </a>
-                                        </div>
+                                    <div class="column" style="background-color:lightblue;">
+                                        <span>Category</span>
+                                        <h4>Flight Testing, Engineering, </h4>
+                                        <span><h4>Certification</h4></span>
                                     </div>
-                                    <div class="single_catagory">
-                                        <a class="boxed-btn3 porject_btn" href="#">Project Link</a>
+                                    <div class="column" style="background-color:lightblue;">
+                                        <span>Date</span>
+                                        <h4>June 2018 - August 2018</h4>
                                     </div>
-                                </div>
-                                <div class="banner">
-                                    <img src="img/AeroTec/home-screen.jpg" alt="aerotec home screen">
-                                </div>
-                                <div class="details_info">
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <div class="info">
-                                                <p>A wonderful </p>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="info">
-                                                <p>A wonderful </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="details_single_img">
-                                    <div class="row">
-                                        <div class="col-lg-6 col-md-6">
-                                            <div class="thumb">
-                                                <img src="img/details/1.png" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 col-md-6">
-                                            <div class="thumb">
-                                                <img src="img/details/2.png" alt="">
-                                            </div>
+                                    <div class="column" style="background-color:lightblue;">
+                                        <span>Social Links</span>
+                                        <div class="social_links" style="font-size: 20px; padding-top: 10px;">
+                                            <a href="https://www.aerotec.com/"> <i class="fas fa-laptop" style="color:black"></i> </a>
+                                            <a href="https://www.linkedin.com/company/aerospace-testing-engineering-&-certification-l-l-c-/"> <i class="fab fa-linkedin" style="color:black"></i> </a>
+                                            <a href="https://twitter.com/AeroTECInc"> <i class="fab fa-twitter" style="color:black"></i> </a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                            <div class="banner">
+                                <img src="img/AeroTec/home-screen.jpg" alt="aerotec home screen">
+                            </div>
+                            <div class="details_single_img">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="thumb">
+                                            <img src="img/details/1.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="thumb">
+                                            <img src="img/details/2.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
-
-
+                    </div>
                 </div>
             </div>
         </div>
     </header>
+
     <style>
-        .picture {
-            position: relative;
-            width: 850px max-width: 1000px;
-            margin: auto;
-            overflow: hidden;
+        .overview {
+            text-align: left;
         }
 
-            .picture .picture-overlay {
-                background: rgba(0,0,0,0.7);
-                position: absolute;
-                height: 99%;
-                width: 100%;
-                left: 0;
-                top: 0;
-                bottom: 0;
-                right: 0;
-                opacity: 0;
-                -webkit-transition: all 0.4s ease-in-out 0s;
-                -moz-transition: all 0.4s ease-in-out 0s;
-                transition: all 0.4s ease-in-out 0s;
+        .white-space {
+        }
+
+            .white-space .pre-wrap {
+                padding-bottom: 20px;
+                padding-top: 20px;
             }
 
-            .picture:hover .picture-overlay {
-                opacity: 1;
-            }
-
-        .picture-image {
-            max-width: 100%;
-            max-height: 95%;
-        }
-
-        .picture-details {
-            position: absolute;
-            text-align: center;
-            padding-left: 1em;
-            padding-right: 1em;
-            width: 100%;
-            top: 50%;
-            left: 50%;
-            opacity: 0;
-            -webkit-transform: translate(-50%, -50%);
-            -moz-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-            -webkit-transition: all 0.3s ease-in-out 0s;
-            -moz-transition: all 0.3s ease-in-out 0s;
-            transition: all 0.3s ease-in-out 0s;
-        }
-
-        .picture:hover .picture-details {
-            top: 50%;
-            left: 50%;
-            opacity: 1;
-        }
-
-        .picture-details h3 {
-            color: #fff;
-            font-weight: 500;
-            letter-spacing: 0.15em;
-            margin-bottom: 0.5em;
-            text-transform: uppercase;
-        }
-
-        .picture-details p {
-            color: #fff;
-            font-size: 0.8em;
-        }
-
-        .fadeIn-top {
-            top: 20%;
+        .h2 {
+            padding-bottom: 20px;
+            padding-top: 20px;
         }
     </style>
-    <div class="page-section portfolio" style="padding-top:5px; padding-bottom:0px">
 
-        <!-- First row 3 portolio items -->
-        <div class="row sqs-row">
-            <div style="padding-right:95px;">
-                <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-yui_3_17_2_1_1574488494399_31199">
-                    <div class="sqs-block-content">&nbsp;</div>
-                </div>
-            </div>
-            <div class="col sqs-col-5 span-5" id="yui_3_17_2_1_1581461850187_71;" style="padding-left:50px; padding-right:50px;">
-                <div class="sqs-block image-block sqs-block-image sqs-text-ready" data-block-type="5" id="block-yui_3_17_2_1_1573457339690_23788">
-                    <div class="sqs-block-content" id="yui_3_17_2_1_1581461850187_70">
-                        <div class="picture" data-scrolled="" id="yui_3_17_2_1_1581461850187_69">
-                            <div class="intrinsic" id="yui_3_17_2_1_1581461850187_68">
-                                <div style="padding-bottom: 5%; overflow: hidden;" class="image-inset content-fill has-aspect-ratio" data-animation-tier="1" data-description="" id="yui_3_17_2_1_1581461850187_64">
-                                    <div class="picture">
-                                        <h3 class="title">Text fadeIn top</h3>
-                                        <div class="picture">
-                                            <a href="AeroTec.html">
-                                                <div class="picture-overlay"></div>
-                                                <img class="picture-image" src="img/portfolio/Aerotec.jpg" alt="AeroTec">
-                                                <div class="picture-details fadeIn-top">
-                                                    <h3>AeroTec Internship</h3>
-                                                    <p>Learn More</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
+    <!-- Overview -->
+
+    <div class="site-wrap">
+        <div class="overview">
+            <div class="container">
+                <div class="details_info" style="padding-top: 100px">
+                    <div class="row">
+                        <div class="col-lg-10">
+                            <div class="sqs-block-content" style="text-align:left;">
+                                <p>Duration: 3 Months </p>
+                                <p>Role: Software Development Engineer Intern</p>
+                                <p>
+                                    Technical Tools: Microsoft Visual Studio Team Services (VSTS), Mercurial, Visual Studio, Visual Basic, XML/WPF, C#
+                                    <ul>
+                                        <li>Agile Sprint Planning Practices</li>
+                                        <li>Integration of Scrum team implementation</li>
+                                        <li>Technical Writing and Documentation</li>
+                                        <li>Feature Implementation and Prioritization</li>
+                                        <li>Testing, Validation, Code Review and Maintenance of Software</li>
+                                    </ul>
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col sqs-col-5 span-5" id="yui_3_17_2_1_1581461850187_101" style="padding-left:50px; padding-right:50px;">
-                <div class="sqs-block image-block sqs-block-image sqs-text-ready" data-aspect-ratio="54.794520547945204" data-block-type="5" id="block-yui_3_17_2_1_1573445596716_9182">
-                    <div class="sqs-block-content" id="yui_3_17_2_1_1581461850187_100">
-                        <div class="image-block-outer-wrapper image-block-v2 design-layout-poster combination-animation-slide-up individual-animation-none individual-text-animation-none image-position-left image-linked sqs-text-ready animation-loaded" data-scrolled="" id="yui_3_17_2_1_1581461850187_99">
-                            <div class="intrinsic" id="yui_3_17_2_1_1581461850187_98">
-                                <div style="padding-bottom: 5%; overflow: hidden;" class="image-inset content-fill has-aspect-ratio" data-animation-tier="1" data-description="" id="yui_3_17_2_1_1581461850187_95">
-                                    <div class="portfolio_overlay">
-                                        <h3 class="title">Text fadeIn top</h3>
-                                        <div class="picture">
-                                            <a href="" target="_blank">
-                                                <div class="picture-overlay"></div>
-                                                <img class="picture-image" src="img/portfolio/Physics-World.jpg" alt="physics world">
-                                                <div class="picture-details fadeIn-top">
-                                                    <h3>Physics World Project</h3>
-                                                    <p>Learn More</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                <div class="row sqs-row" style="margin: 20px; padding-top: 200px">
+                    <div class="sqs-block sqs-block-content" data-block-type="2">
+                        <h2 style="white-space:pre-wrap;">Overview</h2>
+                    </div>
+                </div>
+                <div class="row sqs-row" style="margin: 20px">
+                    <div class="sqs-block sqs-block-content" data-block-type="2">
+                        <p style="white-space:pre-wrap;">I was a Software Development Engineering Intern at AeroTec, based in Seattle, Washington. My role as an intern was to assist with the onboarding integration of agile sprint planning practices. I worked with the development team to work on flight testing software used for real-time flight telemetry and data acquisition in the FAA certification process. During my time, I was involved in a team environment to effectively communicate and work together with engineering and IT teams to meet demands and needs. This would include feature implementation, and maintenance of software for employees to use.</p>
+                        <p>I worked with <strong> VSTS</strong> and <strong>Mercurial</strong> for version control, <strong>Visual Studio</strong> to code in <strong> HTML/CSS, Visual Basic</strong> and <strong>XAML/Wpf</strong> to implement feature requests and modifications for flight testing software.</p>
                     </div>
                 </div>
             </div>
-            <div class="col sqs-col-5 span-5" id="yui_3_17_2_1_1581461850187_101" style="padding-left:50px; padding-right:50px;">
-                <div class="sqs-block image-block sqs-block-image sqs-text-ready" data-aspect-ratio="54.794520547945204" data-block-type="5" id="block-yui_3_17_2_1_1573445596716_9182">
-                    <div class="sqs-block-content" id="yui_3_17_2_1_1581461850187_100">
-                        <div class="image-block-outer-wrapper image-block-v2 design-layout-poster combination-animation-slide-up individual-animation-none individual-text-animation-none image-position-left image-linked sqs-text-ready animation-loaded" data-scrolled="" id="yui_3_17_2_1_1581461850187_99">
-                            <div class="intrinsic" id="yui_3_17_2_1_1581461850187_98">
-                                <div style="padding-bottom: 5% overflow: hidden;" class="image-inset content-fill has-aspect-ratio" data-animation-tier="1" data-description="" id="yui_3_17_2_1_1581461850187_95">
-                                    <div class="portfolio_overlay">
-                                        <h3 class="title">Text fadeIn top</h3>
-                                        <div class="picture">
-                                            <a href="" target="_blank">
-                                                <div class="picture-overlay"></div>
-                                                <img class="picture-image" src="img/portfolio/UBC-XD-Hacks.jpg" alt="">
-                                                <div class="picture-details fadeIn-top">
-                                                    <h3>re:Mine</h3>
-                                                    <p>Learn More</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- End of the First row of elements -->
-            <div style="padding-right:95px;"></div>
         </div>
     </div>
 
-    <!-- Second row 3 portolio items -->
-    <div class="page-section portfolio" style="padding-top:5px; padding-bottom:0px">
-        <div class="row sqs-row">
-            <div style="padding-right:95px;">
-                <div class="sqs-block spacer-block sqs-block-spacer sized vsize-1" data-block-type="21" id="block-yui_3_17_2_1_1574488494399_31199">
-                    <div class="sqs-block-content">&nbsp;</div>
+    <div class="site-wrap" style="margin-top:200px">
+        <div class="overview">
+            <div class="container">
+                <div class="row sqs-row" style="margin: 20px">
+                    <div class="sqs-block sqs-block-content" data-block-type="2">
+                        <h2 style="white-space:pre-wrap;">Company Service and Projects</h2>
+                    </div>
                 </div>
-            </div>
-            <div class="col sqs-col-5 span-5" id="yui_3_17_2_1_1581461850187_71;" style="padding-left:50px; padding-right:50px;">
-                <div class="sqs-block image-block sqs-block-image sqs-text-ready" data-block-type="5" id="block-yui_3_17_2_1_1573457339690_23788">
-                    <div class="sqs-block-content" id="yui_3_17_2_1_1581461850187_70">
-                        <div class="picture" data-scrolled="" id="yui_3_17_2_1_1581461850187_69">
-                            <div class="intrinsic" id="yui_3_17_2_1_1581461850187_68">
-                                <div style="padding-bottom: 5%; overflow: hidden;" class="image-inset content-fill has-aspect-ratio" data-animation-tier="1" data-description="" id="yui_3_17_2_1_1581461850187_64">
-                                    <div class="picture">
-                                        <h3 class="title">Text fadeIn top</h3>
-                                        <div class="picture">
-                                            <a href="" target="_blank">
-                                                <div class="picture-overlay"></div>
-                                                <img class="picture-image" src="img/portfolio/Yelp-Compare.jpg" alt="Yelp-Compare">
-                                                <div class="picture-details fadeIn-top">
-                                                    <h3>Yelp Feature Re-Design</h3>
-                                                    <p>Learn More</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                <div class="row sqs-row" style="margin: 20px">
+                    <div class="sqs-block sqs-block-content" data-block-type="2">
+                        <p>AeroTec designs and builds propriety software for its engineers to use a comprehensive set of customizable tools for flight test, data management, and analysis. Software engineers develop their own solutions for each individual project's needs.</p>
+                        <p>My internship experience involved feature implementation and maintenance of the software tools RAD, TOM, DCT and TIM.</p>
+                        <ul>
+                            <li><strong>RAD:</strong>A tool designed to allow the use of charts, gauges and graphs to collect real-time flight telemetry data in an efficient fashion. </li>
+                            <li><strong>TOM:</strong> A flight planning module that categorizes and logically organizes test conditions to allow efficient flight sequencing. It allows for automatic generation of test information that can be efficiently managed.</li>
+                            <li><strong>DCT:</strong>DataCenter Tools is used for analytics and data retrieval from flight tests. Used to assist in coming up with conclusive results and verify requirements to expectations.</li>
+                            <li><strong>TIM:</strong>A tool used in conjunction with TOM to add information to a database to give it a more manageable way of handling instrumentation (Has yet to be built).</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row sqs-row" style="margin: 20px">
+                    <div class="sqs-block sqs-block-content" data-block-type="2">
+                        <p>Due to company policy and their ownership of all work I have done. I am unavailable to showcase some of the feature implementation and work I have done.</p>
+
                     </div>
                 </div>
             </div>
-            <div class="col sqs-col-5 span-5" id="yui_3_17_2_1_1581461850187_101" style="padding-left:50px; padding-right:50px;">
-                <div class="sqs-block image-block sqs-block-image sqs-text-ready" data-aspect-ratio="54.794520547945204" data-block-type="5" id="block-yui_3_17_2_1_1573445596716_9182">
-                    <div class="sqs-block-content" id="yui_3_17_2_1_1581461850187_100">
-                        <div class="image-block-outer-wrapper image-block-v2 design-layout-poster combination-animation-slide-up individual-animation-none individual-text-animation-none image-position-left image-linked sqs-text-ready animation-loaded" data-scrolled="" id="yui_3_17_2_1_1581461850187_99">
-                            <div class="intrinsic" id="yui_3_17_2_1_1581461850187_98">
-                                <div style="padding-bottom: 5%; overflow: hidden;" class="image-inset content-fill has-aspect-ratio" data-animation-tier="1" data-description="" id="yui_3_17_2_1_1581461850187_95">
-                                    <div class="portfolio_overlay">
-                                        <h3 class="title">Text fadeIn top</h3>
-                                        <div class="picture">
-                                            <a href="" target="_blank">
-                                                <div class="picture-overlay"></div>
-                                                <img class="picture-image" src="img/portfolio/cake.png" alt="physics world">
-                                                <div class="picture-details fadeIn-top">
-                                                    <h3>Amazon Startup Fair</h3>
-                                                    <p>Learn More</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+        </div>
+    </div>
+    <div class="site-wrap" style="margin-top:200px">
+        <div class="overview">
+            <div class="container">
+                <div class="row sqs-row" style="margin: 20px">
+                    <div class="sqs-block sqs-block-content" data-block-type="2">
+                        <h2 style="white-space:pre-wrap;">Daily Role and Work</h2>
+                    </div>
+                </div>
+                <div class="row sqs-row" style="margin: 20px">
+                    <div class="sqs-block sqs-block-content" data-block-type="2">
+                        <p>The Software Development Team was transitioning from a Waterfall style of workflow to Agile Sprint Planning Practices. Part of my role was to assist in the onboarding integration of such practices while working on flight testing software.</p>
+                        <p>The team transition from using Mercurial version control to Github and VSTS services. This enabled better clarity for maintainance, code review and feedback of tasks for a project. In addition, I participated in weekly scrum meetings to perform requirements analysis, feature prioritization, pre-planned scheduling of tasks, testing, user validation and feedback. This would help the software team gauge and organize tasks into manageable weekly chunks, and enable better communication amongst team members to jointly work on various features within the same project.</p>
+                        <p>Software, IT and Dev-Ops teams gathered every other day to discuss goals, plans and ongoing work for each individual member.</p>
+                        <p>During my implementation of features for software, I was to research and learn a variety of concepts such as user interfacing practices, HTML/CSS features, M-V-VM Model. I have taken notes and done enough research to perform my tasks efficiently and to the best of my ability.</p>
+                    </div>
+                </div>
+                <div>
+                    <h3>Example of Research and Notes Taken for self-learning</h3>
+                    <iframe src="/img/AeroTec/M-V-VM-Model.pdf#zoom=125" width="100%" height="500px"></iframe>
+                </div>
+                <div class="row sqs-row" style="margin: 20px">
+                    <div class="sqs-block sqs-block-content" data-block-type="2">
+                        <p>In addition I had documened weekly progress reports for the work I completed, and completed goal setting exercises that were evaluated by my mentors to gauge my learning and experience.</p>                      
                     </div>
                 </div>
             </div>
-            <div class="col sqs-col-5 span-5" id="yui_3_17_2_1_1581461850187_101" style="padding-left:50px; padding-right:50px;">
-                <div class="sqs-block image-block sqs-block-image sqs-text-ready" data-aspect-ratio="54.794520547945204" data-block-type="5" id="block-yui_3_17_2_1_1573445596716_9182">
-                    <div class="sqs-block-content" id="yui_3_17_2_1_1581461850187_100">
-                        <div class="image-block-outer-wrapper image-block-v2 design-layout-poster combination-animation-slide-up individual-animation-none individual-text-animation-none image-position-left image-linked sqs-text-ready animation-loaded" data-scrolled="" id="yui_3_17_2_1_1581461850187_99">
-                            <div class="intrinsic" id="yui_3_17_2_1_1581461850187_98">
-                                <div style="padding-bottom: 5% overflow: hidden;" class="image-inset content-fill has-aspect-ratio" data-animation-tier="1" data-description="" id="yui_3_17_2_1_1581461850187_95">
-                                    <div class="portfolio_overlay">
-                                        <h3 class="title">Text fadeIn top</h3>
-                                        <div class="picture">
-                                            <a href="" target="_blank">
-                                                <div class="picture-overlay"></div>
-                                                <img class="picture-image" src="img/portfolio/game.png" alt="">
-                                                <div class="picture-details fadeIn-top">
-                                                    <h3>YouTube</h3>
-                                                    <p>Learn More</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- End of the Second row of elements -->
-            <div style="padding-right:95px;"></div>
         </div>
     </div>
 
