@@ -1,564 +1,487 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-  <title>Nathan Tong</title>
+    <title>Nathan Tong</title>
 
-  <!-- Custom fonts for this theme -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <!-- Custom fonts for this theme -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
-  <!-- Theme CSS -->
-  <link href="css/freelancer.css" rel="stylesheet">
+    <!-- Theme CSS -->
+    <link href="css/freelancer.css" rel="stylesheet">
 
 </head>
 
-<body id="page-top">
+<body id="page-top" style="max-width: 100%; overflow-x:hidden; background-color:#D4D4D4 ">
+    <style>
+        .navbar-brand {
+            font-family: Open Sans Noto Sans KR;
+        }
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Nathan Tong</a>
-      <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">About</a>
-          </li>
-          <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">Projects</a>
-          </li>
-          <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
+        .navbar-nav {
+            font-family: Open Sans Noto Sans KR;
+        }
+    </style>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg  text-uppercase fixed-top" id="mainNav" style="background-color:white;">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" style="color:black; font-family:Open Sans Noto Sans KR" href="index.html">Nathan Tong</a>
+            <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" href="#index.html">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mx-0 mx-lg-1" id="About">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" style="color:black;" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" style="color:black;" href="index.html">Projects</a>
+                    </li>
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" style="color:black;" href="Nathan_2020_Resume.pdf">Resume</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <style>
+        .center {
+            text-align: center;
+            position: inherit;
+        }
+
+        .column {
+            float: left;
+            width: 20%;
+            padding: 10px;
+            padding-top: 10px;
+            margin-bottom: 40px;
+            font-size: 19px;
+            color: white;
+            font-weight: bold;
+            font-family: "Roboto", sans-serif;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        h4 {
+            font-size: 15px;
+            color: white;
+            font-weight: 400;
+            font-family: Open Sans Noto Sans KR;
+            padding-top: 3px;
+        }
+    </style>
+    <!-- Heading -->
+    <header class="masthead text-white text-center" style="padding-bottom:5px;">
+        <div class="align-items-center flex-column">
+
+            <!-- Heading Title -->
+
+            <div class="multi-column;" data-sort="1" style="margin:auto; text-align:left;">
+                <div class="main-content-container column" style="background-color:transparent; width:1700px; margin-left:300px; position:center;">
+                    <div class="sqs-row justify-content-center" style="position:center">
+                        <div class="col-lg-10;">
+                            <div class="details-catagory-wrap">
+                                <div class="row">
+                                    <div class="column" style="background-color:#cc3336;">
+                                        <span>Platforms</span>
+                                        <h4>YouTube and Twitch</h4>
+                                    </div>
+                                    <div class="column" style="background-color:#cc3336;">
+                                        <span>Category</span>
+                                        <h4>Gaming, Editing, Content Creation</h4>
+                                        <span><h4>Streaming</h4></span>
+                                    </div>
+                                    <div class="column" style="background-color:#cc3336;">
+                                        <span>Date</span>
+                                        <h4>May 2012 - Present</h4>
+                                    </div>
+                                    <div class="column" style="background-color:#cc3336;">
+                                        <span>Social Links</span>
+                                        <div class="social_links" style="font-size: 20px; padding-top: 10px;">
+                                            <a href="https://www.youtube.com/channel/UCYL9f3Rm8UCTtqpKjkOC1PA"> <i class="fab fa-youtube" style="color:white"></i> </a>
+                                            <a href="https://www.twitch.tv/tonn142"> <i class="fab fa-twitch" style="color:white"></i> </a>
+                                            <a href="https://twitter.com/Tonn142"> <i class="fab fa-twitter" style="color:white"></i> </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="site-wrap">
+            <div class="overview">
+                <div class="container">
+                    <div class="details_info" style="padding-top: 100px">
+                    </div>
+                    <div>
+                        <h2 class="overview">YouTube and Streaming Content</h2>
+                    </div>
+                    <style>
+                        .item-element {
+                            display: inline-block;
+                            box-sizing: border-box;
+                            position: relative;
+                            background-color: black;
+                            float: left;
+                        }
+                        .caption {
+                            display: inline-block;
+                            position: relative;
+                            float: left;
+                            padding-top: 40px;
+                        }
+                    </style>
+                    <hr class="item-element" style="width:86%;">
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <style>
+        .tm-features-section {
+            padding-bottom: 85px;
+        }
+
+
+        .tm-feature-block {
+            max-width: 550px;
+            margin-bottom: 40px;
+        }
+
+
+        .tm-feature-h {
+            font-size: 1.8rem;
+        }
+
+        .tm-feature-icon {
+            margin-right: 30px;
+        }
+        .container1{
+            margin-right:245px;
+            margin-left:245px;
+        }
+    </style>
+    <div class="container1 tm-features-section" id="features">
+        <div class="tm-features-row">
+            <section class="col-md-6 col-sm-12 tm-feature-block" style="float:left; margin-right:100px">
+                <header class="tm-feature-header">
+                    <i class="fas fa-5x fa-anchor tm-feature-icon"></i>
+                    <h3 class="tm-feature-h">Montage Edit</h3>
+                </header>
+                <div>
+                    <div class="center" style="left:100px;">
+                        <iframe src="https://youtu.be/OqjUBo_l6gM" width="578" height="325" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div>
+                    <p class="caption">Montage Sample</p>
+                    <p class="caption">Game: Call of Duty</p>
+                    <p class="caption"> Edited by Me.</p>
+                </div>
+
+            </section>
+            <section class="col-md-6 col-sm-12 tm-feature-block" style="float:left; margin-left:100px">
+                <header class="tm-feature-header">
+                    <i class="fas fa-5x fa-atom tm-feature-icon"></i>
+                    <h3 class="tm-feature-h">Cras pretium diam ut metus</h3>
+                </header>
+                <p>
+                    Phasellus tristique, sapien quis mattis pellentesque, felis turpis
+                    placerat turpis, nec viverra quam nisl at velit. Pellentesque
+                    iaculis convallis egestas.
+                </p>
+                <p>
+                    Nunc ut elit eget velit mollis sodales. Ut non mauris ut ligula
+                    mattis consectetur. Aenean augue arcu, rhoncus at nibh nec, lacinia
+                    blandit nulla.
+                </p>
+            </section>
+        </div>
     </div>
-  </nav>
 
-  <!-- Heading -->
-  <header class="masthead bg-primary text-white text-center">
-    <div class="container d-flex align-items-center flex-column">
+    <style>
+        .overview {
+            text-align: left;
+        }
 
-      <!-- Heading Title -->
-      <h1 class="masthead-heading  mb-0" style="color:black; padding-bottom: 16px;">Nathan Tong</h1>
-        <p style="font-size: 15px color: #1E0805">Bellevue, WA</p>
-        <h2 class="text-grey1 mb-0 padding: 20px;" style="padding-bottom: 14px;"> Developer. Programmer. Video Editor</h2>
-        
-      <!-- Masthead Subheading -->
-      <p class="masthead-subheading font-weight-light mb-0" style="font-size: 14px";>Hi, my name is Nathan. I studied Computer Science at The University of British Columbia.
-          <br style="padding-bottom: 14px;">I am seeking Summer 2019 Internship Opportunities!</br>
-      </p>
+        .white-space {
+        }
+
+            .white-space .pre-wrap {
+                padding-bottom: 20px;
+                padding-top: 20px;
+            }
+
+        h2 {
+            padding-bottom: 20px;
+            padding-top: 20px;
+            font-family: Noto Sans KR, sans-serif;
+            font-weight: 300;
+            font-size: 20px;
+            color: white;
+        }
+
+        .general-text {
+            color: black;
+            font-family: Noto Sans KR, sans-serif;
+            font-weight: 300;
+            font-size: 16px;
+        }
+    </style>
+
+    <!-- Overview -->
+
+    <div class="site-wrap">
+        <div class="overview">
+            <div class="container">
+                <div class="details_info" style="padding-top: 700px">
+                    <div class="row">
+                        <div class="col-lg-10">
+                            <div class="sqs-block-content general-text" style="text-align:left; padding-left:20px">
+                                <p><strong>Duration: </strong> 7 Years and Ongoing</p>
+                                <p><strong>Role: </strong> Content Creator, Gaming and Montage Editing</p>
+                                <p>
+                                    <strong>Tools: </strong>Sony Vegas, Canva, StreamLabs/OBS, Elgato Game Capture
+                                </p>
+                                <div>
+                                    <p>Welcome to my Youtube, Gaming and Streaming Page. I've used Youtube for a long time as it is one of my passions to play video games, edit content into montage clips and interact with the community through streaming. Video games has been one of my favorite hobbies - categories of games I play are mostly in the FPS, RTS 3rd Person Shooters, MOBA and AutoChess genres.
+                                    <p>YouTube is a playform for me to release my montages and content creation, where I have done Gameplay-Commentaries to showcase high quality gameplay, tips/tricks and entertainment. When I was invested in FPS games such as Call of Duty, I often created Montages to showcase the skill and plays only the best players can execute.</p>
+                                    <p>Content creating, editing and interacting with the community has given me opportunities to continue showcasing high quality gameplay, interact with followers, and to create enjoyable content.</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row sqs-row" style="margin:20px; margin-bottom:0px; padding-top: 100px">
+                    <div class="sqs-block sqs-block-content general-text" data-block-type="2">
+                        <h2 style="white-space:pre-wrap;">Overview</h2>
+                    </div>
+                </div>
+                <div class="row sqs-row" style="margin:20px; margin-top:0px; padding-top:3px">
+                    <div class="sqs-block sqs-block-content general-text" data-block-type="2">
+                    </div>
+                    <hr class="item-element" style="width:86%;">
+                </div>
+                <div class="row sqs-row" style="margin: 20px">
+                    <div class="sqs-block sqs-block-content general-text" data-block-type="2">
+                        <p style="white-space:pre-wrap;">I was a Software Development Engineering Intern at AeroTec, based in Seattle, Washington. My role as an intern was to assist with the onboarding integration of agile sprint planning practices. I worked with the development team to work on flight testing software used for real-time flight telemetry and data acquisition in the FAA certification process. During my time, I was involved in a team environment to effectively communicate and work together with engineering and IT teams to meet demands and needs. This would include feature implementation, and maintenance of software for employees to use.</p>
+                        <p>I worked with <strong> VSTS</strong> and <strong>Mercurial</strong> for version control, <strong>Visual Studio</strong> to code in <strong> HTML/CSS, Visual Basic</strong> and <strong>XAML/Wpf</strong> to implement feature requests and modifications for flight testing software.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="text-center mt-4">
-        <a class="btn btn-md btn-outline-dark" href="/Nathan_2019-2020_Resume.pdf">
-         View Resume
+
+    <div class="site-wrap" style="margin-top:200px">
+        <div class="overview">
+            <div class="container">
+                <div class="row sqs-row" style="margin: 20px">
+                    <div class="sqs-block sqs-block-content general-text" data-block-type="2">
+                        <h2 style="white-space:pre-wrap;">Company Service and Projects</h2>
+                    </div>
+                    <hr class="item-element" style="width:86%;">
+                </div>
+                <div class="row sqs-row" style="margin: 20px">
+                    <div class="sqs-block sqs-block-content general-text" data-block-type="2">
+                        <p>AeroTec designs and builds propriety software for its engineers to use a comprehensive set of customizable tools for flight test, data management, and analysis. Software engineers develop their own solutions for each individual project's needs.</p>
+                        <p>My internship experience involved feature implementation and maintenance of the software tools RAD, TOM, DCT and TIM.</p>
+                        <ul>
+                            <li><strong>RAD:</strong>A tool designed to allow the use of charts, gauges and graphs to collect real-time flight telemetry data in an efficient fashion. </li>
+                            <li><strong>TOM:</strong> A flight planning module that categorizes and logically organizes test conditions to allow efficient flight sequencing. It allows for automatic generation of test information that can be efficiently managed.</li>
+                            <li><strong>DCT:</strong>DataCenter Tools is used for analytics and data retrieval from flight tests. Used to assist in coming up with conclusive results and verify requirements to expectations.</li>
+                            <li><strong>TIM:</strong>A tool used in conjunction with TOM to add information to a database to give it a more manageable way of handling instrumentation (Has yet to be built).</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row sqs-row" style="margin: 20px">
+                    <div class="sqs-block sqs-block-content general-text" data-block-type="2">
+                        <p>Due to company policy and their ownership of all work I have done. I am unavailable to showcase some of the feature implementation and work I have done.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="site-wrap" style="margin-top:200px">
+        <div class="overview">
+            <div class="container">
+                <div class="row sqs-row" style="margin: 20px">
+                    <div class="sqs-block sqs-block-content general-text" data-block-type="2">
+                        <h2 style="white-space:pre-wrap;">Daily Role and Work</h2>
+                    </div>
+                    <hr class="item-element" style="width:86%;">
+                </div>
+                <div class="row sqs-row" style="margin: 20px">
+                    <div class="sqs-block sqs-block-content general-text" data-block-type="2">
+                        <p>The Software Development Team was transitioning from a Waterfall style of workflow to Agile Sprint Planning Practices. Part of my role was to assist in the onboarding integration of such practices while working on flight testing software.</p>
+                        <p>The team transition from using Mercurial version control to Github and VSTS services. This enabled better clarity for maintainance, code review and feedback of tasks for a project. In addition, I participated in weekly scrum meetings to perform requirements analysis, feature prioritization, pre-planned scheduling of tasks, testing, user validation and feedback. This would help the software team gauge and organize tasks into manageable weekly chunks, and enable better communication amongst team members to jointly work on various features within the same project.</p>
+                        <p>Software, IT and Dev-Ops teams gathered every other day to discuss goals, plans and ongoing work for each individual member.</p>
+                        <p>During my implementation of features for software, I was to research and learn a variety of concepts such as user interfacing practices, HTML/CSS features, M-V-VM Model. I have taken notes and done enough research to perform my tasks efficiently and to the best of my ability.</p>
+                    </div>
+                </div>
+                <div class="row sqs-row" style="margin: 20px">
+                    <div class="sqs-block sqs-block-content general-text" data-block-type="2">
+                        <p>In addition I had documened weekly progress reports for the work I completed, and completed goal setting exercises that were evaluated by my mentors to gauge my learning and experience.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        .mySlides {
+            display: none;
+        }
+    </style>
+    <div class="banner center">
+        <h2 class="w3-center">Example of Research and Notes Taken for self-learning</h2>
+        <div class="w3-content w3-display-container" style="height:600px; width:2500px;">
+            <img class="mySlides center; banner" style="zoom:70%; transform:translateY(150px)" src="img/AeroTec/mvvm1.JPG" alt="mvv1">
+            <img class="mySlides center; banner" style="zoom:80%; transform:translateX(300px)" src="img/AeroTec/mvvm2.JPG" alt="mvv2">
+            <img class="mySlides center; banner" style="zoom:80%; transform:translateX(300px); image-resolution:snap" src="img/AeroTec/mvvm3.JPG" alt="mvv3">
+
+            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+    </div>
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = x.length }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+        }
+
+    </script>
+
+    <style>
+        .progress {
+            display: none;
+        }
+    </style>
+
+    <div class="site-wrap" style="margin-top:100px">
+        <div class="overview">
+            <div class="container">
+                <div class="row sqs-row" style="margin: 20px">
+                    <div class="sqs-block sqs-block-content" data-block-type="2">
+                        <p>In addition, I had documened weekly progress reports for the work I completed, and completed goal setting exercises that were evaluated by my mentors to gauge my learning and experience.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="banner center">
+        <h2 class="w3-center">Goals and Weekly Progress Report</h2>
+        <div class="w3-content w3-display-container" style="height:600px; width:2500px;">
+            <img class="progress" style="zoom:4000%; border-radius: 0; position:absolute; transform:translateX(2.5px)" src="img/AeroTec/Goalsheet.JPG" alt="goals">
+            <img class="progress" style="zoom:4000%; border-radius: 0; position:absolute; transform:translateX(0.5px); max-width:95%; max-height:95% " src="img/AeroTec/Tracker.JPG" alt="tracker">
+
+
+            <button class="w3-button w3-black w3-display-left" onclick="plusPics(-1)">&#10094;</button>
+            <button class="w3-button w3-black w3-display-right" onclick="plusPics(1)">&#10095;</button>
+        </div>
+    </div>
+    <script>
+        var pictureIndex = 1;
+        showPics(pictureIndex);
+
+
+        function plusPics(n) {
+            showPics(pictureIndex += n);
+        }
+
+        function showPics(n) {
+            var i;
+            var x = document.getElementsByClassName("progress");
+            if (n > x.length) { pictureIndex = 1 }
+            if (n < 1) { pictureIndex = x.length }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[pictureIndex - 1].style.display = "block";
+        }
+    </script>
+
+    <div class="site-wrap" style="margin-top:200px"></div>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container" align="center">
+            <div class="row">
+
+                <!-- Footer Social Icons -->
+                <div class="col-md-12 mb-md-12" style="padding-top: 30px;">
+                    <h4 class="text-uppercase mb-3">Let's Chat!</h4>
+                    <div> I would love to chat about technology, gaming, esports, music, sports or anything of interest! </div>
+                    <p>
+                        <a href="mailto:nathanmtong@hotmail.com">Send an Email</a>
+                    </p>
+                    <ul class="socials" style="font-size: 25px; padding-top: 25px; transform:translateX(-20px)">
+                        <il><a href="https://www.linkedin.com/in/nathan-tong-633b7a119/" class="fab fa-linkedin"></a></il>
+                        <il><a href="https://github.com/ton142" class="fab fa-github"></a></il>
+                        <il><a href="https://www.youtube.com/channel/UCYL9f3Rm8UCTtqpKjkOC1PA" class="fab fa-youtube"></a></il>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Copyright Section -->
+    <section class="copyright py-4 text-center text-white">
+        <div class="container">
+            <small>Copyright &copy; 2020 Nathan Tong</small>
+        </div>
+    </section>
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-to-top d-lg-none position-fixed ">
+        <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
         </a>
     </div>
-  </header>
-
-  <!-- Portfolio Section -->
-  <section class="page-section portfolio" id="portfolio"
-           style="padding-top: 0px;
-                  padding-bottom: 0px;">
-    <div class="container">
-
-      <!-- Portfolio Section Heading -->
-      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0" style="text-decoration:underline; padding-bottom: 20px;">Projects</h2>
-
-      <!-- Portfolio Grid Items -->
-      <div class="row">
-
-        <!-- Portfolio Item 1 -->
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/cabin.png" alt="">
-          </div>
-        </div>
-
-        <!-- Portfolio Item 2 -->
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/cake.png" alt="">
-          </div>
-        </div>
-
-        <!-- Portfolio Item 3 -->
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/circus.png" alt="">
-          </div>
-        </div>
-
-        <!-- Portfolio Item 4 -->
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/game.png" alt="">
-          </div>
-        </div>
-
-        <!-- Portfolio Item 5 -->
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/safe.png" alt="">
-          </div>
-        </div>
-
-        <!-- Portfolio Item 6 -->
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/submarine.png" alt="">
-          </div>
-        </div>
-
-      </div>
-      <!-- /.row -->
-
-    </div>
-  </section>
-
-  <!-- About Section -->
-  <section class="mb-0" id="about">
-    <div class="container-body">
-
-      <!-- About Section Heading -->
-      <h2 class="page-section-heading text-center text-uppercase text-black">About</h2>
-
-      <!-- Icon Divider -->
-      <!div class="divider-custom divider-light">
-        <!div class="divider-custom-line"></div>
-        <!div class="divider-custom-icon">
-          <i class="fas fa-star"></i>
-        </div>
-        <div class="divider-custom-line"></div>
-      </div>
-
-      <!-- About Section Content -->
-      <div class="row">
-        <div class="col-lg-4 ml-auto">
-          <p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
-        </div>
-        <div class="col-lg-4 mr-auto">
-          <p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
-        </div>
-      </div>
-
-      <!-- About Section Button -->
-      <div class="text-center mt-4">
-        <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/themes/freelancer/">
-          <i class="fas fa-download mr-2"></i>
-          Free Download!
-        </a>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section class="page-section" id="contact">
-    <div class="container">
-
-      <!-- Contact Section Heading -->
-      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
-
-      <!-- Icon Divider -->
-      <div class="divider-custom">
-        <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon">
-          <i class="fas fa-star"></i>
-        </div>
-        <div class="divider-custom-line"></div>
-      </div>
-
-      <!-- Contact Section Form -->
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-          <form name="sentMessage" id="contactForm" novalidate="novalidate">
-            <div class="control-group">
-              <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                <label>Name</label>
-                <input class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name.">
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <div class="control-group">
-              <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                <label>Email Address</label>
-                <input class="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address.">
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <div class="control-group">
-              <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                <label>Phone Number</label>
-                <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number.">
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <div class="control-group">
-              <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                <label>Message</label>
-                <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
-                <p class="help-block text-danger"></p>
-              </div>
-            </div>
-            <br>
-            <div id="success"></div>
-            <div class="form-group">
-              <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send</button>
-            </div>
-          </form>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="footer text-center">
-    <div class="container">
-      <div class="row">
-
-        <!-- Footer Location -->
-        <div class="col-lg-4 mb-5 mb-lg-0">
-          <h4 class="text-uppercase mb-4">Location</h4>
-          <p class="lead mb-0">2215 John Daniel Drive
-            <br>Clark, MO 65243</p>
-        </div>
-
-        <!-- Footer Social Icons -->
-        <div class="col-lg-4 mb-5 mb-lg-0">
-          <h4 class="text-uppercase mb-4">Around the Web</h4>
-          <a class="btn btn-outline-light btn-social mx-1" href="#">
-            <i class="fab fa-fw fa-facebook-f"></i>
-          </a>
-          <a class="btn btn-outline-light btn-social mx-1" href="#">
-            <i class="fab fa-fw fa-twitter"></i>
-          </a>
-          <a class="btn btn-outline-light btn-social mx-1" href="#">
-            <i class="fab fa-fw fa-linkedin-in"></i>
-          </a>
-          <a class="btn btn-outline-light btn-social mx-1" href="#">
-            <i class="fab fa-fw fa-dribbble"></i>
-          </a>
-        </div>
-
-        <!-- Footer About Text -->
-        <div class="col-lg-4">
-          <h4 class="text-uppercase mb-4">About Freelancer</h4>
-          <p class="lead mb-0">Freelance is a free to use, MIT licensed Bootstrap theme created by
-            <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
-        </div>
-
-      </div>
-    </div>
-  </footer>
-
-  <!-- Copyright Section -->
-  <section class="copyright py-4 text-center text-white">
-    <div class="container">
-      <small>Copyright &copy; Your Website 2019</small>
-    </div>
-  </section>
-
-  <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-  <div class="scroll-to-top d-lg-none position-fixed ">
-    <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
-      <i class="fa fa-chevron-up"></i>
-    </a>
-  </div>
-
-  <!-- Portfolio Modals -->
-
-  <!-- Portfolio Modal 1 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
-    <div class="modal-dialog modal-xl" role="document">
-      <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class="fas fa-times"></i>
-          </span>
-        </button>
-        <div class="modal-body text-center">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Log Cabin</h2>
-                <!-- Icon Divider -->
-                <div class="divider-custom">
-                  <div class="divider-custom-line"></div>
-                  <div class="divider-custom-icon">
-                    <i class="fas fa-star"></i>
-                  </div>
-                  <div class="divider-custom-line"></div>
-                </div>
-                <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/portfolio/cabin.png" alt="">
-                <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                <button class="btn btn-primary" href="#" data-dismiss="modal">
-                  <i class="fas fa-times fa-fw"></i>
-                  Close Window
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Portfolio Modal 2 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2Label" aria-hidden="true">
-    <div class="modal-dialog modal-xl" role="document">
-      <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class="fas fa-times"></i>
-          </span>
-        </button>
-        <div class="modal-body text-center">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Tasty Cake</h2>
-                <!-- Icon Divider -->
-                <div class="divider-custom">
-                  <div class="divider-custom-line"></div>
-                  <div class="divider-custom-icon">
-                    <i class="fas fa-star"></i>
-                  </div>
-                  <div class="divider-custom-line"></div>
-                </div>
-                <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/portfolio/cake.png" alt="">
-                <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                <button class="btn btn-primary" href="#" data-dismiss="modal">
-                  <i class="fas fa-times fa-fw"></i>
-                  Close Window
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Portfolio Modal 3 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal3Label" aria-hidden="true">
-    <div class="modal-dialog modal-xl" role="document">
-      <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class="fas fa-times"></i>
-          </span>
-        </button>
-        <div class="modal-body text-center">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Circus Tent</h2>
-                <!-- Icon Divider -->
-                <div class="divider-custom">
-                  <div class="divider-custom-line"></div>
-                  <div class="divider-custom-icon">
-                    <i class="fas fa-star"></i>
-                  </div>
-                  <div class="divider-custom-line"></div>
-                </div>
-                <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/portfolio/circus.png" alt="">
-                <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                <button class="btn btn-primary" href="#" data-dismiss="modal">
-                  <i class="fas fa-times fa-fw"></i>
-                  Close Window
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Portfolio Modal 4 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="portfolioModal4Label" aria-hidden="true">
-    <div class="modal-dialog modal-xl" role="document">
-      <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class="fas fa-times"></i>
-          </span>
-        </button>
-        <div class="modal-body text-center">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Controller</h2>
-                <!-- Icon Divider -->
-                <div class="divider-custom">
-                  <div class="divider-custom-line"></div>
-                  <div class="divider-custom-icon">
-                    <i class="fas fa-star"></i>
-                  </div>
-                  <div class="divider-custom-line"></div>
-                </div>
-                <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/portfolio/game.png" alt="">
-                <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                <button class="btn btn-primary" href="#" data-dismiss="modal">
-                  <i class="fas fa-times fa-fw"></i>
-                  Close Window
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Portfolio Modal 5 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-labelledby="portfolioModal5Label" aria-hidden="true">
-    <div class="modal-dialog modal-xl" role="document">
-      <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class="fas fa-times"></i>
-          </span>
-        </button>
-        <div class="modal-body text-center">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Locked Safe</h2>
-                <!-- Icon Divider -->
-                <div class="divider-custom">
-                  <div class="divider-custom-line"></div>
-                  <div class="divider-custom-icon">
-                    <i class="fas fa-star"></i>
-                  </div>
-                  <div class="divider-custom-line"></div>
-                </div>
-                <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/portfolio/safe.png" alt="">
-                <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                <button class="btn btn-primary" href="#" data-dismiss="modal">
-                  <i class="fas fa-times fa-fw"></i>
-                  Close Window
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Portfolio Modal 6 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-labelledby="portfolioModal6Label" aria-hidden="true">
-    <div class="modal-dialog modal-xl" role="document">
-      <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class="fas fa-times"></i>
-          </span>
-        </button>
-        <div class="modal-body text-center">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Submarine</h2>
-                <!-- Icon Divider -->
-                <div class="divider-custom">
-                  <div class="divider-custom-line"></div>
-                  <div class="divider-custom-icon">
-                    <i class="fas fa-star"></i>
-                  </div>
-                  <div class="divider-custom-line"></div>
-                </div>
-                <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/portfolio/submarine.png" alt="">
-                <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                <button class="btn btn-primary" href="#" data-dismiss="modal">
-                  <i class="fas fa-times fa-fw"></i>
-                  Close Window
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- Contact Form JavaScript -->
-  <script src="js/jqBootstrapValidation.js"></script>
-  <script src="js/contact_me.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="js/freelancer.min.js"></script>
-
+    <!-- Portfolio Modals -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+    <!-- Custom scripts for this template -->
+    <script src="js/freelancer.min.js"></script>
 </body>
 
 </html>
