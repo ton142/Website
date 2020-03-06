@@ -141,6 +141,7 @@
                             background-color: black;
                             float: left;
                         }
+
                         .caption {
                             display: inline-block;
                             position: relative;
@@ -152,6 +153,25 @@
 
                 </div>
             </div>
+            <style>
+                .example_button {
+                    color: #fff !important;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    background-color: #cc3336;
+                    padding: 20px;
+                    border-radius: 50px;
+                    display: inline-block;
+                    border: none;
+                    transition: all 0.4s ease 0s;
+                    border-color: white;
+                }
+                .btn1:hover {
+                    background-color: #008CBA;
+                    color: white;
+                }               
+            </style>
+            <div class="button_cont" align="center"><a class="example_button" href="https://www.youtube.com/user/Tonn142">Take Me To YouTube</a></div>
         </div>
     </header>
     <style>
@@ -173,45 +193,75 @@
         .tm-feature-icon {
             margin-right: 30px;
         }
-        .container1{
-            margin-right:245px;
-            margin-left:245px;
+
+        .container1 {
+            margin-right: 245px;
+            margin-left: 245px;
         }
     </style>
-    <div class="container1 tm-features-section" id="features">
+    <div class="container1 tm-features-section" id="features" style="padding-top:100px">
         <div class="tm-features-row">
             <section class="col-md-6 col-sm-12 tm-feature-block" style="float:left; margin-right:100px">
                 <header class="tm-feature-header">
-                    <i class="fas fa-5x fa-anchor tm-feature-icon"></i>
-                    <h3 class="tm-feature-h">Montage Edit</h3>
+                    <h3 class="tm-feature-h"><strong>Art of War 2 (2017)</strong></h3>
                 </header>
                 <div>
                     <div class="center" style="left:100px;">
                         <iframe src="https://www.youtube.com/embed/OqjUBo_l6gM" width="578" height="325" frameborder="0" allowfullscreen></iframe>
                     </div>
                 </div>
-                <div>
-                    <p class="caption">Montage Sample</p>
-                    <p class="caption">Game: Call of Duty</p>
-                    <p class="caption"> Edited by Me.</p>
+                <div class="caption">
+                    <p>- A Montage featuring SumTzu21 and Ton142</p>
+                    <p>- Clips and Edited With Sony Vegas by Me</p>
                 </div>
 
             </section>
             <section class="col-md-6 col-sm-12 tm-feature-block" style="float:left; margin-left:100px">
                 <header class="tm-feature-header">
-                    <i class="fas fa-5x fa-atom tm-feature-icon"></i>
-                    <h3 class="tm-feature-h">Cras pretium diam ut metus</h3>
+                    <h3 class="tm-feature-h"><strong>Freesia - Uru Piano Cover (2017)</strong></h3>
                 </header>
-                <p>
-                    Phasellus tristique, sapien quis mattis pellentesque, felis turpis
-                    placerat turpis, nec viverra quam nisl at velit. Pellentesque
-                    iaculis convallis egestas.
-                </p>
-                <p>
-                    Nunc ut elit eget velit mollis sodales. Ut non mauris ut ligula
-                    mattis consectetur. Aenean augue arcu, rhoncus at nibh nec, lacinia
-                    blandit nulla.
-                </p>
+                <div>
+                    <div class="center" style="left:100px;">
+                        <iframe src="https://www.youtube.com/embed/r0f9NwXRr4c" width="578" height="325" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="caption">
+                    <p>- Cover for Gundam Iron Blood Orphans Ending</p>
+                    <p>- Piano SheetMusic and Cover</p>
+                </div>
+            </section>
+        </div>
+    </div>
+    <div class="container1 tm-features-section" id="features">
+        <div class="tm-features-row">
+            <section class="col-md-6 col-sm-12 tm-feature-block" style="float:left; margin-right:100px">
+                <header class="tm-feature-header">
+                    <h3 class="tm-feature-h"><strong>DayBreakers (2013)</strong></h3>
+                </header>
+                <div>
+                    <div class="center" style="left:100px;">
+                        <iframe src="https://www.youtube.com/embed/gdNjEj5Xyk8" width="578" height="325" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="caption">
+                    <p>- A Call of Duty Black Ops 2 Daytage</p>
+                    <p>- Weekend Edit Featuring Players SumTzu21 and ThaiFTW</p>
+                </div>
+
+            </section>
+            <section class="col-md-6 col-sm-12 tm-feature-block" style="float:left; margin-left:100px">
+                <header class="tm-feature-header">
+                    <h3 class="tm-feature-h"><strong>TeamFight Tactics Gameplay (2020)</strong></h3>
+                </header>
+                <div>
+                    <div class="center" style="left:100px;">
+                        <iframe src="https://www.youtube.com/embed/_f1iQYLd32Q" width="578" height="325" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="caption">
+                    <p>- Teamfight Tactics with Commentary</p>
+                    <p>- Edited With Sony Vegas by Me</p>
+                </div>
             </section>
         </div>
     </div>
@@ -241,29 +291,42 @@
         .general-text {
             color: black;
             font-family: Noto Sans KR, sans-serif;
-            font-weight: 300;
             font-size: 16px;
+        }
+
+        strong {
+            font-weight: bold;
         }
     </style>
 
     <!-- Overview -->
-
+    <div class="site-wrap" style="padding-top:100px">
+        <div class="overview">
+            <div class="container">
+                <div class="details_info" style="padding-top: 100px">
+                </div>
+                <div>
+                    <h2 class="overview">My Journey</h2>
+                </div>
+                <hr class="item-element" style="width:86%;">
+            </div>
+        </div>
+    </div>
     <div class="site-wrap">
         <div class="overview">
             <div class="container">
-                <div class="details_info" style="padding-top: 700px">
+                <div class="details_info" style="padding-top: 100px">
                     <div class="row">
                         <div class="col-lg-10">
                             <div class="sqs-block-content general-text" style="text-align:left; padding-left:20px">
                                 <p><strong>Duration: </strong> 7 Years and Ongoing</p>
-                                <p><strong>Role: </strong> Content Creator, Gaming and Montage Editing</p>
-                                <p>
-                                    <strong>Tools: </strong>Sony Vegas, Canva, StreamLabs/OBS, Elgato Game Capture
-                                </p>
+                                <p><strong>Role: </strong> Content Creator, Gaming and Montage Editing, Streaming</p>
+                                <p><strong>Tools: </strong>Sony Vegas, Canva, StreamLabs/OBS, Elgato Game Capture</p>
                                 <div>
-                                    <p>Welcome to my Youtube, Gaming and Streaming Page. I've used Youtube for a long time as it is one of my passions to play video games, edit content into montage clips and interact with the community through streaming. Video games has been one of my favorite hobbies - categories of games I play are mostly in the FPS, RTS 3rd Person Shooters, MOBA and AutoChess genres.
-                                    <p>YouTube is a playform for me to release my montages and content creation, where I have done Gameplay-Commentaries to showcase high quality gameplay, tips/tricks and entertainment. When I was invested in FPS games such as Call of Duty, I often created Montages to showcase the skill and plays only the best players can execute.</p>
-                                    <p>Content creating, editing and interacting with the community has given me opportunities to continue showcasing high quality gameplay, interact with followers, and to create enjoyable content.</p>
+                                    <p>Welcome to my Youtube, Gaming and Streaming Page. I've been a part of Youtube for a long time as it is one of my passions to play video games, edit content into montage clips and interact with the community through streaming. Playing video games and following Esports is one of my favorite hobbies.
+                                    <p>YouTube is a platform for me to release my montages and content creation. I started out as a Call Of Duty Gameplay-Commentary creator, where I showcased high quality gameplay, tips/tricks and entertainment. During this time, I often created Montages to showcase the skill and plays only the best players can execute. It allows me to be creative in telling a story through video clips and music. </p>
+                                    <p>Content creating, editing and interacting with the community has given me opportunities to continue showcasing high quality gameplay, interact with followers, and to create enjoyable content. I have streamed on Twitch as a way to further connect with viewers and play the games I love. Most games I stream are Teamfight Tactics, League of Legends, and OSU!</p>
+                                    <p>I mostly play games in the genres of FPS, RTS 3rd Person Shooters, MOBA and AutoChess genres.</p>
                                 </div>
 
                             </div>
@@ -282,158 +345,132 @@
                 </div>
                 <div class="row sqs-row" style="margin: 20px">
                     <div class="sqs-block sqs-block-content general-text" data-block-type="2">
-                        <p style="white-space:pre-wrap;">I was a Software Development Engineering Intern at AeroTec, based in Seattle, Washington. My role as an intern was to assist with the onboarding integration of agile sprint planning practices. I worked with the development team to work on flight testing software used for real-time flight telemetry and data acquisition in the FAA certification process. During my time, I was involved in a team environment to effectively communicate and work together with engineering and IT teams to meet demands and needs. This would include feature implementation, and maintenance of software for employees to use.</p>
-                        <p>I worked with <strong> VSTS</strong> and <strong>Mercurial</strong> for version control, <strong>Visual Studio</strong> to code in <strong> HTML/CSS, Visual Basic</strong> and <strong>XAML/Wpf</strong> to implement feature requests and modifications for flight testing software.</p>
+                        <p style="white-space:pre-wrap;">I currently post YouTube videos and Stream occassionaly on Twitch. The type of Content I post is Gaming videos related to Teamfight Tactics to share my strategies, and League of Legends - where I play with my friends. I may consider branching out, however Gaming is my main interest. </p>
+                        <p>I use <strong> Sony Vegas</strong> and <strong>Vegas Aftereffects</strong> to create my montages, where I add special effects, transitions and other add-ons to make videos visually entertaining and pleasing. I create my own custom <strong>Thumbnails</strong> using  <a href="https://www.canva.com/"><strong>Canva</strong></a> and refer to outside sources for my image overlays. I do my best to follow the YouTube <strong>Copyright Rules</strong> while using music either in the background or in montages.</p>
+                        <p>I Stream occassionally on <strong>Twitch</strong>, however I do not have a set schedule. It is a little inconsistent, however I enjoy reaching out and interacting with those who stop by and enjoy the content I produce. I stream using <strong>StreamLabs</strong> and use a headset with a built in microphone to interact with viewers.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-    <div class="site-wrap" style="margin-top:200px">
-        <div class="overview">
-            <div class="container">
-                <div class="row sqs-row" style="margin: 20px">
-                    <div class="sqs-block sqs-block-content general-text" data-block-type="2">
-                        <h2 style="white-space:pre-wrap;">Company Service and Projects</h2>
-                    </div>
-                    <hr class="item-element" style="width:86%;">
-                </div>
-                <div class="row sqs-row" style="margin: 20px">
-                    <div class="sqs-block sqs-block-content general-text" data-block-type="2">
-                        <p>AeroTec designs and builds propriety software for its engineers to use a comprehensive set of customizable tools for flight test, data management, and analysis. Software engineers develop their own solutions for each individual project's needs.</p>
-                        <p>My internship experience involved feature implementation and maintenance of the software tools RAD, TOM, DCT and TIM.</p>
-                        <ul>
-                            <li><strong>RAD:</strong>A tool designed to allow the use of charts, gauges and graphs to collect real-time flight telemetry data in an efficient fashion. </li>
-                            <li><strong>TOM:</strong> A flight planning module that categorizes and logically organizes test conditions to allow efficient flight sequencing. It allows for automatic generation of test information that can be efficiently managed.</li>
-                            <li><strong>DCT:</strong>DataCenter Tools is used for analytics and data retrieval from flight tests. Used to assist in coming up with conclusive results and verify requirements to expectations.</li>
-                            <li><strong>TIM:</strong>A tool used in conjunction with TOM to add information to a database to give it a more manageable way of handling instrumentation (Has yet to be built).</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="row sqs-row" style="margin: 20px">
-                    <div class="sqs-block sqs-block-content general-text" data-block-type="2">
-                        <p>Due to company policy and their ownership of all work I have done. I am unavailable to showcase some of the feature implementation and work I have done.</p>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="site-wrap" style="margin-top:200px">
-        <div class="overview">
-            <div class="container">
-                <div class="row sqs-row" style="margin: 20px">
-                    <div class="sqs-block sqs-block-content general-text" data-block-type="2">
-                        <h2 style="white-space:pre-wrap;">Daily Role and Work</h2>
-                    </div>
-                    <hr class="item-element" style="width:86%;">
-                </div>
-                <div class="row sqs-row" style="margin: 20px">
-                    <div class="sqs-block sqs-block-content general-text" data-block-type="2">
-                        <p>The Software Development Team was transitioning from a Waterfall style of workflow to Agile Sprint Planning Practices. Part of my role was to assist in the onboarding integration of such practices while working on flight testing software.</p>
-                        <p>The team transition from using Mercurial version control to Github and VSTS services. This enabled better clarity for maintainance, code review and feedback of tasks for a project. In addition, I participated in weekly scrum meetings to perform requirements analysis, feature prioritization, pre-planned scheduling of tasks, testing, user validation and feedback. This would help the software team gauge and organize tasks into manageable weekly chunks, and enable better communication amongst team members to jointly work on various features within the same project.</p>
-                        <p>Software, IT and Dev-Ops teams gathered every other day to discuss goals, plans and ongoing work for each individual member.</p>
-                        <p>During my implementation of features for software, I was to research and learn a variety of concepts such as user interfacing practices, HTML/CSS features, M-V-VM Model. I have taken notes and done enough research to perform my tasks efficiently and to the best of my ability.</p>
-                    </div>
-                </div>
-                <div class="row sqs-row" style="margin: 20px">
-                    <div class="sqs-block sqs-block-content general-text" data-block-type="2">
-                        <p>In addition I had documened weekly progress reports for the work I completed, and completed goal setting exercises that were evaluated by my mentors to gauge my learning and experience.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <style>
-        .mySlides {
-            display: none;
-        }
-    </style>
-    <div class="banner center">
-        <h2 class="w3-center">Example of Research and Notes Taken for self-learning</h2>
-        <div class="w3-content w3-display-container" style="height:600px; width:2500px;">
-            <img class="mySlides center; banner" style="zoom:70%; transform:translateY(150px)" src="img/AeroTec/mvvm1.JPG" alt="mvv1">
-            <img class="mySlides center; banner" style="zoom:80%; transform:translateX(300px)" src="img/AeroTec/mvvm2.JPG" alt="mvv2">
-            <img class="mySlides center; banner" style="zoom:80%; transform:translateX(300px); image-resolution:snap" src="img/AeroTec/mvvm3.JPG" alt="mvv3">
-
-            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-        </div>
-    </div>
-    <script>
-        var slideIndex = 1;
-        showDivs(slideIndex);
-
-
-        function plusDivs(n) {
-            showDivs(slideIndex += n);
-        }
-
-        function showDivs(n) {
-            var i;
-            var x = document.getElementsByClassName("mySlides");
-            if (n > x.length) { slideIndex = 1 }
-            if (n < 1) { slideIndex = x.length }
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";
-            }
-            x[slideIndex - 1].style.display = "block";
-        }
-
-    </script>
-
-    <style>
-        .progress {
-            display: none;
-        }
-    </style>
-
+    <!-- Projects and Collaborations -->
     <div class="site-wrap" style="margin-top:100px">
         <div class="overview">
             <div class="container">
                 <div class="row sqs-row" style="margin: 20px">
-                    <div class="sqs-block sqs-block-content" data-block-type="2">
-                        <p>In addition, I had documened weekly progress reports for the work I completed, and completed goal setting exercises that were evaluated by my mentors to gauge my learning and experience.</p>
+                    <div class="sqs-block sqs-block-content general-text" data-block-type="2">
+                        <h2 style="white-space:pre-wrap;">Projects and Collaborations</h2>
+                    </div>
+                    <hr class="item-element" style="width:86%;">
+                </div>
+                <div class="row sqs-row" style="margin: 20px">
+                    <div class="sqs-block sqs-block-content general-text" data-block-type="2">
+                        <p>Being a part of the YouTube Community has allowed me to interact and collaborate with other aspiring content creators within the same genre as me. I have created and released montages for other people's channels as well as showcase quick edits for those who like my work. Creating and growing with others is something that is fun and enjoyable.</p>
+                        <p>Ranging from Quick Edits to More Gaming Montages, it is all a good experience to practice editing and providing content for others to share and grow a fanbase!</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="banner center">
-        <h2 class="w3-center">Goals and Weekly Progress Report</h2>
-        <div class="w3-content w3-display-container" style="height:600px; width:2500px;">
-            <img class="progress" style="zoom:4000%; border-radius: 0; position:absolute; transform:translateX(2.5px)" src="img/AeroTec/Goalsheet.JPG" alt="goals">
-            <img class="progress" style="zoom:4000%; border-radius: 0; position:absolute; transform:translateX(0.5px); max-width:95%; max-height:95% " src="img/AeroTec/Tracker.JPG" alt="tracker">
+    <div class="container1 tm-features-section" id="features" style="padding-top:50px">
+        <div class="tm-features-row">
+            <section class="col-md-6 col-sm-12 tm-feature-block" style="float:left; margin-right:100px">
+                <header class="tm-feature-header">
+                    <h3 class="tm-feature-h"><strong>Heartless (2014)</strong></h3>
+                </header>
+                <div>
+                    <div class="center" style="left:100px;">
+                        <iframe src="https://www.youtube.com/embed/1J7ASBBEvx4" width="578" height="325" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="caption">
+                    <p>- A Montage featuring MrMg317</p>
+                    <p>- Edited With Sony Vegas by Me and released 2014</p>
+                </div>
 
-
-            <button class="w3-button w3-black w3-display-left" onclick="plusPics(-1)">&#10094;</button>
-            <button class="w3-button w3-black w3-display-right" onclick="plusPics(1)">&#10095;</button>
+            </section>
+            <section class="col-md-6 col-sm-12 tm-feature-block" style="float:left; margin-left:100px">
+                <header class="tm-feature-header">
+                    <h3 class="tm-feature-h"><strong>WakeSurfing Edit </strong></h3>
+                </header>
+                <div>
+                    <div class="center" style="left:100px;">
+                        <iframe src="https://www.youtube.com/embed/JdHGj8tQE4A" width="578" height="325" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="caption">
+                    <p>- WakeSurfing Edit Feat. Prueth</p>
+                    <p>- Edit Request for Showcase</p>
+                </div>
+            </section>
         </div>
     </div>
-    <script>
-        var pictureIndex = 1;
-        showPics(pictureIndex);
+
+    <!-- Other Activities -->
+    <div class="site-wrap" style="padding-top:100px">
+        <div class="overview">
+            <div class="container">
+                <div class="details_info" style="padding-top: 100px">
+                </div>
+                <div>
+                    <h2 class="overview">Other Activities</h2>
+                </div>
+                <hr class="item-element" style="width:86%;">
+            </div>
+        </div>
+    </div>
+    <div class="site-wrap">
+        <div class="overview">
+            <div class="container">
+                <div class="details_info" style="padding-top: 100px">
+                    <div class="row">
+                        <div class="col-lg-10">
+                            <div class="sqs-block-content general-text" style="text-align:left; padding-left:20px">
+                                <div>
+                                    <p>In the past, I have also competed and participated in local Microsoft Call of Duty Tournaments with my brother and friends. We won first place at the local Bellevue Square Mall Microsoft - In store Tournament. Winning prizes and claiming first place was the peak of our esports careers.</p>
+                                    <p>My role on the team was coach and Substitute for Team No Lives.</p>
+                                </div>
+
+                            </div>
+                            <div>
+                                <h2 class="center" style="font-size:40px;">Some Video Footage of a 3 Game Matches at a Microsoft Tournament</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="tm-section-2 tm-section-mb" id="tm-section-2">
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-lg-0 mb-md-5 mb-5 pr-md-5" style="padding:50px;">
+                <div>
+                    <div class="center" style="left:100px;">
+                        <iframe src="https://www.youtube.com/embed/UqtvxvCUpgU" width="500" height="300" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-lg-0 mb-md-5 mb-5 pr-md-5" style="padding:50px;">
+                <div>
+                    <div class="center" style="left:100px;">
+                        <iframe src="https://www.youtube.com/embed/z49mhhkHdjk" width="500" height="300" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-lg-0 mb-md-5 mb-5 pr-md-5" style="padding:50px;">
+                <div>
+                    <div class="center" style="left:100px;">
+                        <iframe src="https://www.youtube.com/embed/KaBvqY5SL5k" width="500" height="300" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
 
 
-        function plusPics(n) {
-            showPics(pictureIndex += n);
-        }
+        </div>
+    </section>
 
-        function showPics(n) {
-            var i;
-            var x = document.getElementsByClassName("progress");
-            if (n > x.length) { pictureIndex = 1 }
-            if (n < 1) { pictureIndex = x.length }
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";
-            }
-            x[pictureIndex - 1].style.display = "block";
-        }
-    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
     <div class="site-wrap" style="margin-top:200px"></div>
 
@@ -445,7 +482,7 @@
 
                 <!-- Footer Social Icons -->
                 <div class="col-md-12 mb-md-12" style="padding-top: 30px;">
-                    <h4 class="text-uppercase mb-3">Let's Chat!</h4>
+                    <h4 class="text-uppercase mb-3" style="color:black">Let's Chat!</h4>
                     <div> I would love to chat about technology, gaming, esports, music, sports or anything of interest! </div>
                     <p>
                         <a href="mailto:nathanmtong@hotmail.com">Send an Email</a>
