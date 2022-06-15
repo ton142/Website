@@ -20,7 +20,7 @@
 
 </head>
 
-<body id="page-top" style="max-width: 100%; overflow-x:hidden; background-color:#D4D4D4 ">
+<body id="page-top" style="max-width: 100%; overflow-x:hidden; background-color:lightgray;">
     <style>
         .navbar-brand {
             font-family: Open Sans Noto Sans KR;
@@ -33,7 +33,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg  text-uppercase fixed-top" id="mainNav" style="background-color:white;">
         <div class="container">
-            <a class="navbar-brand js-scroll-trigger" style="color:black; font-family:Open Sans Noto Sans KR" href="index.html">Nathan Tong</a>
+            <a class="navbar-brand js-scroll-trigger" style="color:black;" href="index.html">Nathan Tong</a>
             <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" href="#index.html">
                 Menu
                 <i class="fas fa-bars"></i>
@@ -61,12 +61,12 @@
 
         .column {
             float: left;
-            width: 20%;
+            width: 25%;
             padding: 10px;
             padding-top: 10px;
             margin-bottom: 40px;
             font-size: 19px;
-            color: white;
+            color: black;
             font-weight: bold;
             font-family: "Roboto", sans-serif;
         }
@@ -81,20 +81,51 @@
             font-size: 15px;
             color: white;
             font-weight: 400;
-            font-family: Open Sans Noto Sans KR;
+            font-family: Noto Sans KR, sans-serif;
             padding-top: 3px;
         }
     </style>
+    <style>
+        .overview {
+            text-align: left;
+        }
+
+        .white-space {
+        }
+
+            .white-space .pre-wrap {
+                padding-bottom: 20px;
+                padding-top: 20px;
+            }
+
+        h2 {
+            padding-bottom: 20px;
+            padding-top: 20px;
+            font-family: Noto Sans KR, sans-serif;
+            font-weight: 300;
+            font-size: 20px;
+        }
+
+        .general-text {
+            color: black;
+            font-family: Noto Sans KR, sans-serif;
+            font-size: 16px;
+        }
+
+        strong {
+            font-weight: bold;
+        }
+    </style>
     <!-- Heading -->
-    <header class="masthead text-white text-center" style="padding-bottom:5px;">
+    <header class="masthead bg-primary text-white text-center" style="padding-bottom:5px;">
         <div class="align-items-center flex-column">
 
             <!-- Heading Title -->
 
             <div class="multi-column;" data-sort="1" style="margin:auto; text-align:left;">
-                <div class="main-content-container column" style="background-color:transparent; width:1700px; margin-left:300px; position:center;">
-                    <div class="sqs-row justify-content-center" style="position:center">
-                        <div class="col-lg-10;">
+                <div class="main-content-container" style="background-color:#cc3336; margin:auto;">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-10; center">
                             <div class="details-catagory-wrap">
                                 <div class="row">
                                     <div class="column" style="background-color:#cc3336;">
@@ -125,56 +156,57 @@
                 </div>
             </div>
         </div>
-        <div class="site-wrap">
-            <div class="overview">
-                <div class="container">
-                    <div class="details_info" style="padding-top: 100px">
-                    </div>
-                    <div>
-                        <h2 class="overview">YouTube and Streaming Content</h2>
-                    </div>
-                    <style>
-                        .item-element {
-                            display: inline-block;
-                            box-sizing: border-box;
-                            position: relative;
-                            background-color: black;
-                            float: left;
-                        }
-
-                        .caption {
-                            display: inline-block;
-                            position: relative;
-                            float: left;
-                            padding-top: 40px;
-                        }
-                    </style>
-                    <hr class="item-element" style="width:86%;">
-
-                </div>
-            </div>
-            <style>
-                .example_button {
-                    color: #fff !important;
-                    text-transform: uppercase;
-                    text-decoration: none;
-                    background-color: #cc3336;
-                    padding: 20px;
-                    border-radius: 50px;
-                    display: inline-block;
-                    border: none;
-                    transition: all 0.4s ease 0s;
-                    border-color: white;
-                }
-
-                .btn1:hover {
-                    background-color: #008CBA;
-                    color: white;
-                }
-            </style>
-            <div class="button_cont" align="center"><a class="example_button" href="https://www.youtube.com/user/Tonn142">Take Me To YouTube</a></div>
-        </div>
     </header>
+    <div class="site-wrap">
+        <div class="overview">
+            <div class="container">
+                <div class="details_info" style="padding-top: 100px">
+                </div>
+                <div>
+                    <h2 class="overview">YouTube and Streaming Content</h2>
+                </div>
+                <style>
+                    .item-element {
+                        display: inline-block;
+                        box-sizing: border-box;
+                        position: relative;
+                        background-color: black;
+                        float: left;
+                    }
+
+                    .caption {
+                        display: inline-block;
+                        position: relative;
+                        float: left;
+                        padding-top: 40px;
+                    }
+                </style>
+                <hr class="item-element" style="width:86%;">
+
+            </div>
+        </div>
+        <style>
+            .example_button {
+                color: #fff !important;
+                text-transform: uppercase;
+                text-decoration: none;
+                background-color: #cc3336;
+                padding: 20px;
+                border-radius: 50px;
+                display: inline-block;
+                border: none;
+                transition: all 0.4s ease 0s;
+                border-color: white;
+            }
+
+            .btn1:hover {
+                background-color: #008CBA;
+                color: white;
+            }
+        </style>
+        <div class="button_cont" align="center"><a class="example_button" href="https://www.youtube.com/user/Tonn142">Take Me To YouTube</a></div>
+    </div>
+
     <style>
         .tm-features-section {
             padding-bottom: 85px;
@@ -199,86 +231,91 @@
             margin-right: 245px;
             margin-left: 245px;
         }
+
+        .overview {
+            text-align: left;
+        }
+
+        .white-space {
+        }
+
+            .white-space .pre-wrap {
+                padding-bottom: 20px;
+                padding-top: 20px;
+            }
+
+        .h2 {
+            padding-bottom: 20px;
+            padding-top: 20px;
+        }
     </style>
-    <div class="site-wrap">
-        <div class="overview">
-            <div class="container">
-                <div class="details_info" style="padding-top: 100px">
-                    <div class="row">
-
-                                <div class="container1 tm-features-section" id="features" style="padding-top:100px">
-                                    <div class="tm-features-row">
-                                        <section class="col-md-6 col-sm-12 tm-feature-block" style="float:left; margin-right:100px">
-                                            <header class="tm-feature-header">
-                                                <h3 class="tm-feature-h"><strong>Art of War 2 (2017)</strong></h3>
-                                            </header>
-                                            <div>
-                                                <div class="center" style="left:100px;">
-                                                    <iframe src="https://www.youtube.com/embed/OqjUBo_l6gM" width="578" height="325" frameborder="0" allowfullscreen></iframe>
-                                                </div>
-                                            </div>
-                                            <div class="caption">
-                                                <p>- A Montage featuring SumTzu21 and Ton142</p>
-                                                <p>- Clips and Edited With Sony Vegas by Me</p>
-                                            </div>
-                                        </section>
-                                        <section class="col-md-6 col-sm-12 tm-feature-block" style="float:left; margin-left:100px">
-                                            <header class="tm-feature-header">
-                                                <h3 class="tm-feature-h"><strong>Freesia - Uru Piano Cover (2017)</strong></h3>
-                                            </header>
-                                            <div>
-                                                <div class="center" style="left:100px;">
-                                                    <iframe src="https://www.youtube.com/embed/r0f9NwXRr4c" width="578" height="325" frameborder="0" allowfullscreen></iframe>
-                                                </div>
-                                            </div>
-                                            <div class="caption">
-                                                <p>- Cover for Gundam Iron Blood Orphans Ending</p>
-                                                <p>- Piano SheetMusic and Cover</p>
-                                            </div>
-                                        </section>
-                                    </div>
-                                </div>
-                                <div class="container1 tm-features-section" id="features">
-                                    <div class="tm-features-row">
-                                        <section class="col-md-6 col-sm-12 tm-feature-block" style="float:left; margin-right:100px">
-                                            <header class="tm-feature-header">
-                                                <h3 class="tm-feature-h"><strong>DayBreakers (2013)</strong></h3>
-                                            </header>
-                                            <div>
-                                                <div class="center" style="left:100px;">
-                                                    <iframe src="https://www.youtube.com/embed/gdNjEj5Xyk8" width="578" height="325" frameborder="0" allowfullscreen></iframe>
-                                                </div>
-                                            </div>
-                                            <div class="caption">
-                                                <p>- A Call of Duty Black Ops 2 Daytage</p>
-                                                <p>- Weekend Edit Featuring Players SumTzu21 and ThaiFTW</p>
-                                            </div>
-
-                                        </section>
-                                        <section class="col-md-6 col-sm-12 tm-feature-block" style="float:left; margin-left:100px">
-                                            <header class="tm-feature-header">
-                                                <h3 class="tm-feature-h"><strong>TeamFight Tactics Gameplay (2020)</strong></h3>
-                                            </header>
-                                            <div>
-                                                <div class="center" style="left:100px;">
-                                                    <iframe src="https://www.youtube.com/embed/_f1iQYLd32Q" width="578" height="325" frameborder="0" allowfullscreen></iframe>
-                                                </div>
-                                            </div>
-                                            <div class="caption">
-                                                <p>- Teamfight Tactics with Commentary</p>
-                                                <p>- Edited With Sony Vegas by Me</p>
-                                            </div>
-                                        </section>
-                                    </div>
-
-                        </div>
+    <div class="grid-container" style="align-items: center; grid-auto-flow: column; grid-gap:4px; padding-top: 100px; ">
+        <div class="item1" >
+            <section class="col-md-6 col-sm-12 tm-feature-block" style="float:left; margin:100px">
+                <header class="tm-feature-header">
+                    <h3 class="tm-feature-h"><strong>Art of War 2 (2017)</strong></h3>
+                </header>
+                <div>
+                    <div class="center" >
+                        <iframe src="https://www.youtube.com/embed/OqjUBo_l6gM" width="578" height="325" frameborder="0" allowfullscreen></iframe>
                     </div>
                 </div>
-            </div>
+                <div class="caption">
+                    <p>- A Montage featuring SumTzu21 and Ton142</p>
+                    <p>- Clips and Edited With Sony Vegas by Me</p>
+                </div>
+            </section>
+        </div>
+        <div class="item2">
+            <section class="col-md-6 col-sm-12 tm-feature-block" style="float:left; margin:100px">
+                <header class="tm-feature-header">
+                    <h3 class="tm-feature-h"><strong>Freesia - Uru Piano Cover (2017)</strong></h3>
+                </header>
+                <div>
+                    <div class="center">
+                        <iframe src="https://www.youtube.com/embed/r0f9NwXRr4c" width="578" height="325" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="caption">
+                    <p>- Cover for Gundam Iron Blood Orphans Ending</p>
+                    <p>- Piano SheetMusic and Cover</p>
+                </div>
+            </section>
+        </div>
+        <div class="item3">
+            <section class="col-md-6 col-sm-12 tm-feature-block" style="float:left; margin: 100px">
+                <header class="tm-feature-header">
+                    <h3 class="tm-feature-h"><strong>DayBreakers (2013)</strong></h3>
+                </header>
+                <div>
+                    <div class="center">
+                        <iframe src="https://www.youtube.com/embed/gdNjEj5Xyk8" width="578" height="325" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="caption">
+                    <p>- A Call of Duty Black Ops 2 Daytage</p>
+                    <p>- Weekend Edit Featuring Players SumTzu21 and ThaiFTW</p>
+                </div>
+
+            </section>
+        </div>
+        <div class="item4">
+            <section class="col-md-6 col-sm-12 tm-feature-block" style="float:left; margin:100px">
+                <header class="tm-feature-header">
+                    <h3 class="tm-feature-h"><strong>TeamFight Tactics Gameplay (2020)</strong></h3>
+                </header>
+                <div>
+                    <div class="center">
+                        <iframe src="https://www.youtube.com/embed/_f1iQYLd32Q" width="578" height="325" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="caption">
+                    <p>- Teamfight Tactics with Commentary</p>
+                    <p>- Edited With Sony Vegas by Me</p>
+                </div>
+            </section>
         </div>
     </div>
-    
-
     <style>
         .overview {
             text-align: left;
@@ -319,7 +356,7 @@
                 <div class="details_info" style="padding-top: 100px">
                 </div>
                 <div>
-                    <h2 class="overview">My Journey</h2>
+                    <h2 class="overview">My Content Creation Journey</h2>
                 </div>
                 <hr class="item-element" style="width:86%;">
             </div>
@@ -342,11 +379,39 @@
                                     <p>I mostly play games in the genres of FPS, RTS 3rd Person Shooters, MOBA and AutoChess genres.</p>
                                 </div>
 
+                                <div>
+                                    <header style="padding-top:25px; padding-bottom:25px;"><strong>TEAMFIGHT TACTICS</strong></header>
+                                    <div>
+                                        <p>
+                                            I am a <strong>Top 0.5%</strong> Teamfight Tactics Player on the North American (NA) Ladder. My steady improvement since the game launch has me hungry to compete in local online tournaments as well as help others through my TFT content creation and streaming learn and improve at the game.
+                                            I occassionally make TFT set guides on Compositions and hope to climb further on the ladder! I have reached Masters and on my way to climb to GrandMaster or Challenger!. More of my stats can be found at <div><a href="https://lolchess.gg/profile/na/ton142">https://lolchess.gg/profile/na/ton142</a> </div>
+                                        </p>
+                                        <p><strong>Set 1: </strong> Platinum 4</p>
+                                        <p><strong>Set 2: </strong> Diamond 4</p>
+                                        <p><strong>Set 3 and 3.5: </strong>Masters both Sets hitting 137 LP</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <p> TFT Tourney 1: https://fates.liquidtactics.gg/tournaments/liquid-fates-open-qualifier-1-day-1/standings </p>
+                                        <p> TFT Tourney 2: https://fates.liquidtactics.gg/tournaments/liquid-fates-qualifier-d1/standings </p>
+                                        <p> TFT Tourney 3: https://fates.liquidtactics.gg/tournaments/liquid-fates-qualifier-3/
+                                            Results from Tourney 3:https://docs.google.com/spreadsheets/d/1LYxHIpj2dPTzti6vQEro4ncRk5QVO8c__GSbufmC8UI/edit#gid=0
+                                            https://docs.google.com/spreadsheets/d/1yWl7sHbU-iYRUPghGNQwEAu2Y-eWQqMQ25vGH8k8Fns/edit#gid=0
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    <div class="banner center">
+                        <h3 class="w3-center">Sample TFT Composition Guide</h3>
+                        <div class="w3-content w3-display-container" style="height:800px; width:2500px;">
+                            <iframe src="img/Youtube/TFT_guide_Set_3.5_10.17_Patch.pdf" " width="100%" height="600px"></iframe>
+                        </div>
+                    </div>
                 </div>
-                <div class="row sqs-row" style="margin:20px; margin-bottom:0px; padding-top: 100px">
+                <div class="row sqs-row" style="margin:20px; margin-bottom:0px; padding-top: 0px">
                     <div class="sqs-block sqs-block-content general-text" data-block-type="2">
                         <h2 style="white-space:pre-wrap;">Overview</h2>
                     </div>
@@ -360,7 +425,7 @@
                     <div class="sqs-block sqs-block-content general-text" data-block-type="2">
                         <p style="white-space:pre-wrap;">I currently post YouTube videos and Stream occassionaly on Twitch. The type of Content I post is Gaming videos related to Teamfight Tactics to share my strategies, and League of Legends - where I play with my friends. I may consider branching out, however Gaming is my main interest. </p>
                         <p>I use <strong> Sony Vegas</strong> and <strong>Vegas Aftereffects</strong> to create my montages, where I add special effects, transitions and other add-ons to make videos visually entertaining and pleasing. I create my own custom <strong>Thumbnails</strong> using  <a href="https://www.canva.com/"><strong>Canva</strong></a> and refer to outside sources for my image overlays. I do my best to follow the YouTube <strong>Copyright Rules</strong> while using music either in the background or in montages.</p>
-                        <p>I Stream occassionally on <strong>Twitch</strong>, however I do not have a set schedule. It is a little inconsistent, however I enjoy reaching out and interacting with those who stop by and enjoy the content I produce. I stream using <strong>StreamLabs</strong> and use a headset with a built in microphone to interact with viewers.</p>
+                        <p>I occassionally stream on <strong>Twitch</strong>, however I do not have a set schedule. It is a little inconsistent, however I enjoy reaching out and interacting with those who stop by and enjoy the content I produce. I stream using <strong>StreamLabs</strong> and use a headset with a built in microphone to interact with viewers.</p>
                     </div>
                 </div>
             </div>
